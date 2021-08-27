@@ -1,28 +1,32 @@
 defmodule Bulma.MixProject do
   use Mix.Project
 
+  @url "https://github.com/kevinlang/bulma-elixir"
+
   def project do
     [
       app: :bulma,
-      version: "0.1.0",
-      elixir: "~> 1.12",
-      start_permanent: Mix.env() == :prod,
-      deps: deps()
+      version: "0.1.1",
+      elixir: "~> 1.8",
+      name: "Bulma",
+      description: "Bulma Sass files for easy use with dart_sass",
+      deps: deps(),
+      package: package()
     ]
   end
 
-  # Run "mix help compile.app" to learn about applications.
-  def application do
+  defp deps() do
     [
-      extra_applications: [:logger]
+      {:ex_doc, "~> 0.21", only: :docs}
     ]
   end
 
-  # Run "mix help deps" to learn about dependencies.
-  defp deps do
-    [
-      # {:dep_from_hexpm, "~> 0.3.0"},
-      # {:dep_from_git, git: "https://github.com/elixir-lang/my_dep.git", tag: "0.1.0"}
-    ]
+  defp package do
+    %{
+      licenses: ["MIT"],
+      maintainers: ["Kevin Lang"],
+      links: %{"GitHub" => @url},
+      files: ~w(mix.exs LICENSE README.md bulma.sass sass)
+    }
   end
 end
