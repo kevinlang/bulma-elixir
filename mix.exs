@@ -6,7 +6,7 @@ defmodule Bulma.MixProject do
   def project do
     [
       app: :bulma,
-      version: "0.1.1",
+      version: "0.9.3",
       elixir: "~> 1.8",
       name: "Bulma",
       description: "Bulma Sass files for easy use with dart_sass",
