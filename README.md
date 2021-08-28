@@ -1,21 +1,8 @@
 # Bulma
 
-**TODO: Add description**
+You can use this package to install Bulma in your Phoenix project without needing to rely on Node or NPM.
+It works by leveraging the [DartSass](https://github.com/cargosense/dart_sass) package.
 
-## Installation
+You can find an in-depth tutorial on how to use this package [here](https://kevinlang.me/posts/bulma-phoenix-1-6).
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `bulma` to your list of dependencies in `mix.exs`:
-
-```elixir
-def deps do
-  [
-    {:bulma, "~> 0.1.0"}
-  ]
-end
-```
-
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/bulma](https://hexdocs.pm/bulma).
-
+The version of this package exactly matches the version of Bulma that it contains. As of now, it only has version `0.9.3`.

@@ -11,7 +11,8 @@ defmodule Bulma.MixProject do
       name: "Bulma",
       description: "Bulma Sass files for easy use with dart_sass",
       deps: deps(),
-      package: package()
+      package: package(),
+      docs: docs()
     ]
   end
 
@@ -21,12 +22,21 @@ defmodule Bulma.MixProject do
     ]
   end
 
-  defp package do
+  defp package()do
     %{
       licenses: ["MIT"],
       maintainers: ["Kevin Lang"],
       links: %{"GitHub" => @url},
       files: ~w(mix.exs LICENSE README.md bulma.sass sass)
     }
+  end
+
+  defp docs() do
+    [
+      extras: [
+        "README.md"
+      ],
+      main: "readme"
+    ]
   end
 end
