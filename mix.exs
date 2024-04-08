@@ -6,7 +6,7 @@ defmodule Bulma.MixProject do
   def project do
     [
       app: :bulma,
-      version: "0.9.4",
+      version: "1.0.0",
       elixir: "~> 1.8",
       name: "Bulma",
       description: "Bulma Sass files for easy use with dart_sass",
@@ -27,7 +27,7 @@ defmodule Bulma.MixProject do
       licenses: ["MIT"],
       maintainers: ["Kevin Lang"],
       links: %{"GitHub" => @url},
-      files: ~w(mix.exs LICENSE README.md bulma.sass sass)
+      files: ~w(mix.exs LICENSE README.md bulma.scss sass)
     }
   end
 

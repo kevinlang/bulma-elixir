@@ -5,4 +5,4 @@ It works by leveraging the [DartSass](https://github.com/cargosense/dart_sass) p
 
 You can find an in-depth tutorial on how to use this package [here](https://kevinlang.me/bulma-phoenix-1-6).
 
-The version of this package exactly matches the version of Bulma that it contains. As of now, it has versions `0.9.3` and `0.9.4`.
+The version of this package exactly matches the version of Bulma that it contains. As of now, it has version `1.0.0`.
