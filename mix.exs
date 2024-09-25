@@ -18,14 +18,14 @@ defmodule Bulma.MixProject do
 
   defp deps() do
     [
-      {:ex_doc, "~> 0.21", only: :docs}
+      {:ex_doc, "~> 0.34", only: :docs}
     ]
   end
 
   defp package() do
     %{
       licenses: ["MIT"],
-      maintainers: ["Kevin Lang"],
+      maintainers: ["Kevin Lang, David Parry"],
       links: %{"GitHub" => @url},
       files: ~w(mix.exs LICENSE README.md bulma.scss sass)
     }
